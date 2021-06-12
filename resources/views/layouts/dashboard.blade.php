@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./">
-                            <img src="img/logo.png" alt="">
+                        <a href="/">
+                            <img src="img/logo2.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="col-lg-2">
                     <div class="header__right">
                         <a href="#" class="search-switch"><span class="icon_search"></span></a>
-                        <a href="./login.html"><span class="icon_profile"></span></a>
+                        <a href="{{ route('extends.login-extend')}}"><span class="icon_profile"></span></a>
                     </div>
                 </div>
             </div>
