@@ -44,3 +44,6 @@ Route::get('/login', function () {
 Route::get('/blog', function () {
     return view('extends.our-blog-extend');
 })->name('extends.our-blog-extend');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
